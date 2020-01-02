@@ -10,8 +10,8 @@ const Button = styled.button`
   height: 40px;
   font-size: 18px;
 `;
-const ButtonDefault = ({ text = 'button' }) => {
-  return <Button type="button">{text}</Button>;
+const ButtonDefault = prop => {
+  return <Button type="button">{prop.children}</Button>;
 };
 
 export default ButtonDefault;

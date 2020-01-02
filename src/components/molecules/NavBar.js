@@ -14,7 +14,7 @@ function Navbar() {
           <a>Index</a>
         </Link>
       </li>
-      <Button text="Pesquisar" />
+      <Button>Pesquisar</Button>
       <Button />
     </Nav>
   );
