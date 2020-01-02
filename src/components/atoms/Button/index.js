@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.button`
@@ -9,9 +10,8 @@ const Button = styled.button`
   height: 40px;
   font-size: 18px;
 `;
-
-function ButtonDefault({ text = 'button' }) {
+const ButtonDefault = ({ text = 'button' }) => {
   return <Button type="button">{text}</Button>;
-}
+};
 
 export default ButtonDefault;

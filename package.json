@@ -8,12 +8,14 @@
     "dev": "webpack-dev-server --mode development",
     "devNext": "next",
     "buildNext": "next build",
-    "startNext": "next start"
+    "startNext": "next start",
+    "storybook": "start-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
+    "@storybook/react": "^5.2.8",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.0",
@@ -28,6 +30,7 @@
     "eslint-plugin-react-redux": "^3.0.2",
     "file-loader": "^5.0.2",
     "prettier": "^1.19.1",
+    "storybook-addon-styled-component-theme": "^1.3.0",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",

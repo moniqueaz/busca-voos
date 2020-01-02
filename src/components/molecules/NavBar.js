@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import Button from '../atoms/button/default';
+import Button from '../atoms/Button/index';
 
 const Nav = styled.ul`
   font-size: 50px;
