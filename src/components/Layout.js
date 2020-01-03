@@ -4,14 +4,12 @@ import { Provider, connect } from 'react-redux';
 // import '../config/ReactotronConfig';
 
 import store from '../store/index';
-import Navbar from './molecules/NavBar';
 
 const Layout = Page => {
   return class PageWrapper extends React.Component {
     render() {
       return (
         <Provider store={store}>
-          <Navbar />
           <Page />
         </Provider>
       );
