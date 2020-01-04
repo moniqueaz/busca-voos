@@ -1,5 +1,8 @@
 import React from 'react';
 import { Provider, connect } from 'react-redux';
+import GlobalStyle from '../style/reset';
+
+import api from '../services/api';
 // import styled from 'styled-components';
 // import '../config/ReactotronConfig';
 
@@ -10,6 +13,7 @@ const Layout = Page => {
     render() {
       return (
         <Provider store={store}>
+          <GlobalStyle />
           <Page />
         </Provider>
       );

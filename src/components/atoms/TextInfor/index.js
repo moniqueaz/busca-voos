@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Infor = styled.span`
+const TextInfor = styled.span`
   color: #333;
   width: 100%;
   font-size: 12px;
@@ -17,12 +17,12 @@ const Infor = styled.span`
     color: orange;
   }
 `;
-const InforComponet = prop => {
+const TextInforComponet = prop => {
   return (
-    <Infor className={prop.className}>
+    <TextInfor className={prop.className}>
       {prop.children ? prop.children : ''}
-    </Infor>
+    </TextInfor>
   );
 };
 
-export default InforComponet;
+export default TextInforComponet;

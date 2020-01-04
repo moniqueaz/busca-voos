@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from '../../atoms/Button';
 
 const GridHeader = styled.div`
   background-color: #889395;
@@ -18,8 +19,18 @@ const GridHeader = styled.div`
     }
   }
 `;
-const GridHeaderComponet = prop => {
-  return <GridHeader className="grid-header">{prop.children}</GridHeader>;
+const GridHeaderComponet = _ => {
+  return (
+    <GridHeader className="grid-header">
+      <Button className="text white" arrow></Button>
+      <Button className="text white" arrow>
+        Button
+      </Button>
+      <Button className="text white" arrow>
+        Button
+      </Button>
+    </GridHeader>
+  );
 };
 
 export default GridHeaderComponet;
