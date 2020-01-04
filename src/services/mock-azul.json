@@ -1,0 +1,5034 @@
+{
+  "outbound": [
+    {
+      "id": "156967be84a24aadd8e6275197d59ada",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4241",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T06:20:00Z",
+      "arrivalDate": "2020-02-01T07:40:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T06:20:00Z",
+          "arrivalDate": "2020-02-01T07:40:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4241",
+          "aircraft": "320",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 246.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 246.8,
+          "saleTotal": 278.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 223.44,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 9500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 223.44,
+          "saleTotal": 300.03,
+          "milesTotal": 9500,
+          "milesPrice": {
+            "rules": [
+              "f0d00812-b19a-445f-a698-122d27ba9ac4.118"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 206.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 36.52
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 206.9,
+          "saleTotal": 275.11
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 1.2136881037
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "827a7223642430150783009ae1eb59ff",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4077",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-01T07:35:00Z",
+      "arrivalDate": "2020-02-01T08:45:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T07:35:00Z",
+          "arrivalDate": "2020-02-01T08:45:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4077",
+          "aircraft": "E95",
+          "duration": 70,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 662.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 662.8,
+          "saleTotal": 694.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 652.85,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 27500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 652.85,
+          "saleTotal": 729.44,
+          "milesTotal": 27500,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": null,
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "86d98dc8aed4dab8a75ae4aa03d5339c",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "AD2411",
+      "cabin": "EC",
+      "duration": 85,
+      "departureDate": "2020-02-01T07:55:00Z",
+      "arrivalDate": "2020-02-01T09:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T07:55:00Z",
+          "arrivalDate": "2020-02-01T09:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2411",
+          "aircraft": "320",
+          "duration": 85,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 107.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 107.8,
+          "saleTotal": 139.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 94.08,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 4000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 94.08,
+          "saleTotal": 170.67,
+          "milesTotal": 4000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 67.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 11.98
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 67.9,
+          "saleTotal": 111.57
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 20.0157717399
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "b9e17b69c1df0c0b84bcb6244c6b0a47",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "AD5803",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T08:15:00Z",
+      "arrivalDate": "2020-02-01T09:35:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T08:15:00Z",
+          "arrivalDate": "2020-02-01T09:35:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5803",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 165.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 142.16
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 14.0975285516
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "3c749aaccb421799fcbff5e572e6bead",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD2473",
+      "cabin": "EC",
+      "duration": 65,
+      "departureDate": "2020-02-01T08:30:00Z",
+      "arrivalDate": "2020-02-01T09:35:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T08:30:00Z",
+          "arrivalDate": "2020-02-01T09:35:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2473",
+          "aircraft": "E95",
+          "duration": 65,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 246.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 246.8,
+          "saleTotal": 278.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 223.44,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 9500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 223.44,
+          "saleTotal": 300.03,
+          "milesTotal": 9500,
+          "milesPrice": {
+            "rules": [
+              "f0d00812-b19a-445f-a698-122d27ba9ac4.118"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 206.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 36.52
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 206.9,
+          "saleTotal": 275.11
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 1.2136881037
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "e09a4903f61b6bf52534c6c38b815c98",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4987",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T08:30:00Z",
+      "arrivalDate": "2020-02-01T09:50:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T08:30:00Z",
+          "arrivalDate": "2020-02-01T09:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4987",
+          "aircraft": "320",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 199.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 199.8,
+          "saleTotal": 231.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 446.88,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 19000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 446.88,
+          "saleTotal": 523.47,
+          "milesTotal": 19000,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 159.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 28.22
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 159.9,
+          "saleTotal": 219.81
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 5.0455743229
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "4d956935fd50943c440b3fb659bbb0fa",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "AD5827",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T11:30:00Z",
+      "arrivalDate": "2020-02-01T12:50:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T11:30:00Z",
+          "arrivalDate": "2020-02-01T12:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5827",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 165.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 142.16
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 14.0975285516
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "55a945398339a4be6f5c627c862d35b3",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "AD4226",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-01T12:15:00Z",
+      "arrivalDate": "2020-02-01T13:30:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T12:15:00Z",
+          "arrivalDate": "2020-02-01T13:30:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4226",
+          "aircraft": "E95",
+          "duration": 75,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 352.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 352.8,
+          "saleTotal": 384.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 120.75,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3452,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 5000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 120.75,
+          "saleTotal": 197.34,
+          "milesTotal": 5000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 24.15
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 312.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 55.23
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 312.9,
+          "saleTotal": 399.82
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 48.674868007
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ae53d6378d682a906f884d2f7936d28a",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4295",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-01T12:20:00Z",
+      "arrivalDate": "2020-02-01T13:35:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T12:20:00Z",
+          "arrivalDate": "2020-02-01T13:35:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4295",
+          "aircraft": "320 C",
+          "duration": 75,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 199.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 199.8,
+          "saleTotal": 231.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 159.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 28.22
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 159.9,
+          "saleTotal": 219.81
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 5.9527409391
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "27ed93d574b69545851f082bc74692d6",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "AD5805",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T13:00:00Z",
+      "arrivalDate": "2020-02-01T14:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T13:00:00Z",
+          "arrivalDate": "2020-02-01T14:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5805",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 165.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 142.16
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 14.0975285516
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "2d45869798bd1c65f6ec2e9fb0c4bccc",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4159",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T17:00:00Z",
+      "arrivalDate": "2020-02-01T18:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T17:00:00Z",
+          "arrivalDate": "2020-02-01T18:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4159",
+          "aircraft": "295",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 246.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 246.8,
+          "saleTotal": 278.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 223.44,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 9500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 223.44,
+          "saleTotal": 300.03,
+          "milesTotal": 9500,
+          "milesPrice": {
+            "rules": [
+              "f0d00812-b19a-445f-a698-122d27ba9ac4.118"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 206.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 36.52
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 206.9,
+          "saleTotal": 275.11
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 1.2136881037
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "a498bc15a18f77593bfe456e599f74ae",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "AD5809",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T18:00:00Z",
+      "arrivalDate": "2020-02-01T19:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T18:00:00Z",
+          "arrivalDate": "2020-02-01T19:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5809",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 165.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 142.16
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 14.0975285516
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "02ad9168b2d54f145ea0e82d50c9d5cf",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "AD2725",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T18:00:00Z",
+      "arrivalDate": "2020-02-01T19:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T18:00:00Z",
+          "arrivalDate": "2020-02-01T19:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2725",
+          "aircraft": "320",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 107.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 107.8,
+          "saleTotal": 139.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 94.08,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 4000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 94.08,
+          "saleTotal": 170.67,
+          "milesTotal": 4000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 67.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 11.98
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 67.9,
+          "saleTotal": 111.57
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 20.0157717399
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "59fe2966f3ef4392176e4b68f8981263",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD4353",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T19:40:00Z",
+      "arrivalDate": "2020-02-01T21:00:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T19:40:00Z",
+          "arrivalDate": "2020-02-01T21:00:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4353",
+          "aircraft": "320",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 199.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 199.8,
+          "saleTotal": 231.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 159.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 28.22
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 159.9,
+          "saleTotal": 219.81
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 5.9527409391
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "c8031fada234c06518e9edc63f564c18",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "AD5811",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T21:05:00Z",
+      "arrivalDate": "2020-02-01T22:25:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T21:05:00Z",
+          "arrivalDate": "2020-02-01T22:25:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5811",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 165.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 142.16
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 14.0975285516
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "80da1c607361ebd56e1f15fa4add8f80",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "AD5769",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-01T21:10:00Z",
+      "arrivalDate": "2020-02-01T22:25:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "VCP",
+          "departureDate": "2020-02-01T21:10:00Z",
+          "arrivalDate": "2020-02-01T22:25:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5769",
+          "aircraft": "320",
+          "duration": 75,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 199.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 199.8,
+          "saleTotal": 231.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 217.71,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 159.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3509,
+                "type": "SERVICE_FEE",
+                "value": 28.22
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 159.9,
+          "saleTotal": 219.81
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 5.9527409391
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "bedd686adb70137d2cd057f75999803c",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "AD2826",
+      "cabin": "EC",
+      "duration": 85,
+      "departureDate": "2020-02-01T21:55:00Z",
+      "arrivalDate": "2020-02-01T23:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T21:55:00Z",
+          "arrivalDate": "2020-02-01T23:20:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2826",
+          "aircraft": "E95",
+          "duration": 85,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 107.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 107.8,
+          "saleTotal": 139.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 94.08,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 4000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 94.08,
+          "saleTotal": 170.67,
+          "milesTotal": 4000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 67.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 11.98
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 67.9,
+          "saleTotal": 111.57
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 20.0157717399
+      },
+      "otaAvailableIn": "both"
+    }
+  ],
+  "inbound": [
+    {
+      "id": "426977408643eb24367c9e8c26cff053",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5800",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T06:05:00Z",
+      "arrivalDate": "2020-02-02T07:25:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T06:05:00Z",
+          "arrivalDate": "2020-02-02T07:25:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5800",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 166.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 218.97,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 143.42
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 13.9910044978
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "d277be7f9d7f1259bd2cc42d22481b21",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD4140",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T07:40:00Z",
+      "arrivalDate": "2020-02-02T08:50:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T07:40:00Z",
+          "arrivalDate": "2020-02-02T08:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4140",
+          "aircraft": "295",
+          "duration": 70,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 1005.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 1005.8,
+          "saleTotal": 1036.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 1020.82,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 43000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 1020.82,
+          "saleTotal": 1096.1,
+          "milesTotal": 43000,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": null,
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "c80bd628df9e57bd2037a6e2851f9210",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD2514",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T09:15:00Z",
+      "arrivalDate": "2020-02-02T10:30:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T09:15:00Z",
+          "arrivalDate": "2020-02-02T10:30:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2514",
+          "aircraft": "320",
+          "duration": 75,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 542.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 542.8,
+          "saleTotal": 573.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 265.65,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3452,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 11000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 265.65,
+          "saleTotal": 340.93,
+          "milesTotal": 11000,
+          "milesPrice": {
+            "rules": [
+              "f0d00812-b19a-445f-a698-122d27ba9ac4.118"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 24.15
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 502.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 88.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 502.9,
+          "saleTotal": 622.04
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 40.5195575561
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ebf8a4499c5905ed82af97c23198fc83",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5822",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T09:55:00Z",
+      "arrivalDate": "2020-02-02T11:15:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T09:55:00Z",
+          "arrivalDate": "2020-02-02T11:15:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5822",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 387.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 387.8,
+          "saleTotal": 420.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 364.56,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 15500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 364.56,
+          "saleTotal": 442.41,
+          "milesTotal": 15500,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 61.4
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 442.25
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "8c5ac1f2ee72b6e3ff71e193266822f3",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "AD4294",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T09:55:00Z",
+      "arrivalDate": "2020-02-02T11:10:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T09:55:00Z",
+          "arrivalDate": "2020-02-02T11:10:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4294",
+          "aircraft": "320 C",
+          "duration": 75,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 352.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 352.8,
+          "saleTotal": 384.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 193.2,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 8000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 193.2,
+          "saleTotal": 269.79,
+          "milesTotal": 8000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 24.15
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 312.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 55.23
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 312.9,
+          "saleTotal": 399.82
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 29.8317251424
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "18c0cc355d73c36333bcecf6f0b3acd2",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD4974",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T10:20:00Z",
+      "arrivalDate": "2020-02-02T11:40:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T10:20:00Z",
+          "arrivalDate": "2020-02-02T11:40:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD4974",
+          "aircraft": "295",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 542.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 542.8,
+          "saleTotal": 573.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 379.68,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 16000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 379.68,
+          "saleTotal": 454.96,
+          "milesTotal": 16000,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.73
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 502.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 88.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 502.9,
+          "saleTotal": 622.04
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "miles",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 20.6252835061
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "7438628bb3eab9f33e266bce4b7c3853",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "AD2665",
+      "cabin": "EC",
+      "duration": 65,
+      "departureDate": "2020-02-02T11:45:00Z",
+      "arrivalDate": "2020-02-02T12:50:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T11:45:00Z",
+          "arrivalDate": "2020-02-02T12:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2665",
+          "aircraft": "E95",
+          "duration": 65,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 508.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 508.8,
+          "saleTotal": 540.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 498.54,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 21000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 498.54,
+          "saleTotal": 575.13,
+          "milesTotal": 21000,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 468.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 82.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 468.9,
+          "saleTotal": 583.35
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "6abe52d2fe23141c4d9218e90e9ec426",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5806",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T12:30:00Z",
+      "arrivalDate": "2020-02-02T13:50:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T12:30:00Z",
+          "arrivalDate": "2020-02-02T13:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5806",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 387.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 387.8,
+          "saleTotal": 420.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 364.56,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 15500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 364.56,
+          "saleTotal": 442.41,
+          "milesTotal": 15500,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 61.4
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 442.25
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ef196c4cd0bfc46c904db0ab26d87d51",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5808",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T14:30:00Z",
+      "arrivalDate": "2020-02-02T15:50:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T14:30:00Z",
+          "arrivalDate": "2020-02-02T15:50:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5808",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 387.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 387.8,
+          "saleTotal": 420.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 364.56,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 15500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 364.56,
+          "saleTotal": 442.41,
+          "milesTotal": 15500,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 61.4
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 442.25
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "907f540d8b0411f2d01a83a4ea9e2996",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD5011",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T15:35:00Z",
+      "arrivalDate": "2020-02-02T16:55:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T15:35:00Z",
+          "arrivalDate": "2020-02-02T16:55:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5011",
+          "aircraft": "295",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 542.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 542.8,
+          "saleTotal": 573.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 534.15,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 22500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 534.15,
+          "saleTotal": 609.43,
+          "milesTotal": 22500,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 502.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 88.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 502.9,
+          "saleTotal": 622.04
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "05c1ffe3060d5aa9b3cd1470905f05f0",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "AD2733",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T15:40:00Z",
+      "arrivalDate": "2020-02-02T17:00:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T15:40:00Z",
+          "arrivalDate": "2020-02-02T17:00:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2733",
+          "aircraft": "320 C",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 508.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 508.8,
+          "saleTotal": 540.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 498.54,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 21000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 498.54,
+          "saleTotal": 575.13,
+          "milesTotal": 21000,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 468.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 82.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 468.9,
+          "saleTotal": 583.35
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "980aafd1bd20abacb74939e5956d4696",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5812",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T18:10:00Z",
+      "arrivalDate": "2020-02-02T19:30:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T18:10:00Z",
+          "arrivalDate": "2020-02-02T19:30:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5812",
+          "aircraft": "E95",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 166.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 218.97,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 143.42
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 13.9910044978
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ca4f92247fd468da4e1362cc9e8a386f",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "AD2438",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T19:05:00Z",
+      "arrivalDate": "2020-02-02T20:15:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T19:05:00Z",
+          "arrivalDate": "2020-02-02T20:15:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2438",
+          "aircraft": "E95",
+          "duration": 70,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 508.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 508.8,
+          "saleTotal": 540.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 498.54,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 21000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 498.54,
+          "saleTotal": 575.13,
+          "milesTotal": 21000,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 468.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 82.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 468.9,
+          "saleTotal": 583.35
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "a8f42549d789dc3e0fa5a19426e8005b",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "AD5814",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T20:00:00Z",
+      "arrivalDate": "2020-02-02T21:10:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:00:00Z",
+          "arrivalDate": "2020-02-02T21:10:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD5814",
+          "aircraft": "E95",
+          "duration": 70,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 133.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 133.8,
+          "saleTotal": 166.75
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 141.12,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 6000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 141.12,
+          "saleTotal": 218.97,
+          "milesTotal": 6000,
+          "milesPrice": {
+            "rules": [
+              "4246c8da-f884-44bd-b611-89052cae2d2e.129"
+            ],
+            "price": 24.15,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 93.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3508,
+                "type": "SERVICE_FEE",
+                "value": 16.57
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 93.9,
+          "saleTotal": 143.42
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "ota",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 13.9910044978
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "6308770b19eff4651d4807789497736d",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD2462",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T20:05:00Z",
+      "arrivalDate": "2020-02-02T21:15:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:05:00Z",
+          "arrivalDate": "2020-02-02T21:15:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2462",
+          "aircraft": "295",
+          "duration": 70,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 542.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 542.8,
+          "saleTotal": 573.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 534.15,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 22500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 534.15,
+          "saleTotal": 609.43,
+          "milesTotal": 22500,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 502.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 88.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 502.9,
+          "saleTotal": 622.04
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "452d9e72b029716a21f756f6e2185ca9",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "AD2522",
+      "cabin": "EC",
+      "duration": 65,
+      "departureDate": "2020-02-02T20:20:00Z",
+      "arrivalDate": "2020-02-02T21:25:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:20:00Z",
+          "arrivalDate": "2020-02-02T21:25:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2522",
+          "aircraft": "E95",
+          "duration": 65,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 508.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 508.8,
+          "saleTotal": 540.49
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 498.54,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 21000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 498.54,
+          "saleTotal": 575.13,
+          "milesTotal": 21000,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 468.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 82.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 468.9,
+          "saleTotal": 583.35
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "11de4b5e68bb91d8540dd9d07abaaf05",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD2456",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-02T21:40:00Z",
+      "arrivalDate": "2020-02-02T23:00:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T21:40:00Z",
+          "arrivalDate": "2020-02-02T23:00:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2456",
+          "aircraft": "320",
+          "duration": 80,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 662.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 662.8,
+          "saleTotal": 693.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 652.85,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 27500
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 652.85,
+          "saleTotal": 728.13,
+          "milesTotal": 27500,
+          "milesPrice": {
+            "rules": [
+              "005505e4-01b7-473c-b94e-5151c69047bd.115"
+            ],
+            "price": 24.17,
+            "minPrice": 23.74,
+            "threshold": 80,
+            "salePrice": 23.74
+          }
+        },
+        "ota": null,
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "45ea969db5da5dd8b4e1f411ad1296dc",
+      "airline": "azul",
+      "airlineTarget": "azul",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "AD2795",
+      "cabin": "EC",
+      "duration": 65,
+      "departureDate": "2020-02-02T23:05:00Z",
+      "arrivalDate": "2020-02-03T00:10:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "from": "VCP",
+          "to": "CNF",
+          "departureDate": "2020-02-02T23:05:00Z",
+          "arrivalDate": "2020-02-03T00:10:00Z",
+          "carrier": "Azul",
+          "flightNumber": "AD2795",
+          "aircraft": "E95",
+          "duration": 65,
+          "layover": 0,
+          "stops": 0,
+          "cabin": "EC",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "both",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 424.8,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              }
+            ]
+          },
+          "luggage": {},
+          "fareTotal": 424.8,
+          "saleTotal": 455.18
+        },
+        "miles": {
+          "adult": {
+            "quantity": 1,
+            "fare": 399.84,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38
+              },
+              {
+                "type": "CONVENIENCE_FEE",
+                "value": 39.9,
+                "group": "miles"
+              },
+              {
+                "id": 3451,
+                "type": "SERVICE_FEE",
+                "value": 5
+              }
+            ],
+            "miles": 17000
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": 23,
+              "prices": [
+                90,
+                190,
+                320,
+                450,
+                580
+              ]
+            }
+          },
+          "fareTotal": 399.84,
+          "saleTotal": 475.12,
+          "milesTotal": 17000,
+          "milesPrice": {
+            "rules": [
+              "0ca99822-5af3-4dc7-ba2c-098f5336e9cc.114"
+            ],
+            "price": 23.73,
+            "minPrice": 23.52,
+            "threshold": 80,
+            "salePrice": 23.52
+          }
+        },
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 384.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3510,
+                "type": "SERVICE_FEE",
+                "value": 67.93
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [
+                0
+              ]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "F+",
+          "recharged": false,
+          "fareTotal": 384.9,
+          "saleTotal": 483.21
+        },
+        "airlineName": "azul",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "miles",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    }
+  ]
+}

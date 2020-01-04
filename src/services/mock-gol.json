@@ -1,0 +1,2032 @@
+{
+  "outbound": [
+    {
+      "id": "ff2c17f77845f313f0d43b68d759e72e",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "G3-1301",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T07:00:00Z",
+      "arrivalDate": "2020-02-01T08:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T07:00:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T08:20:00Z",
+          "flightNumber": "G3-1301",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 115.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 115.9,
+          "saleTotal": 147.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 121.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 13.54
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 121.9,
+          "saleTotal": 167.13
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ecf7edae83a6a0b4cbd45091d20cea9a",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "G3-1321",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T07:15:00Z",
+      "arrivalDate": "2020-02-01T08:35:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T07:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T08:35:00Z",
+          "flightNumber": "G3-1321",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 189.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 189.9,
+          "saleTotal": 221.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 189.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 21.1
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 189.9,
+          "saleTotal": 242.69
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "3abe9b1acefe7fd6af18e62fd9db7424",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "G3-1303",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T08:55:00Z",
+      "arrivalDate": "2020-02-01T10:15:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T08:55:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T10:15:00Z",
+          "flightNumber": "G3-1303",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 115.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 115.9,
+          "saleTotal": 147.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 121.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 13.54
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 121.9,
+          "saleTotal": 167.13
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "d6220a4a0800cd765f28090c9af4a5ff",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "G3-1323",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T10:00:00Z",
+      "arrivalDate": "2020-02-01T11:20:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T10:00:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T11:20:00Z",
+          "flightNumber": "G3-1323",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 299.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 299.9,
+          "saleTotal": 331.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "bcca6837800a1214ff4ea640b22b6509",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "G3-1307",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T11:10:00Z",
+      "arrivalDate": "2020-02-01T12:30:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T11:10:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T12:30:00Z",
+          "flightNumber": "G3-1307",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 171.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 171.9,
+          "saleTotal": 203.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 177.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 19.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 177.9,
+          "saleTotal": 229.35
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "2d1a8aa2580ca914614e9ee228e40073",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "G3-1319",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T16:10:00Z",
+      "arrivalDate": "2020-02-01T17:30:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T16:10:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T17:30:00Z",
+          "flightNumber": "G3-1319",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 239.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 239.9,
+          "saleTotal": 271.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "8c943682e9c59bb617ec1f5d1d62883e",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "GRU",
+      "flightNumber": "G3-1921",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T18:05:00Z",
+      "arrivalDate": "2020-02-01T19:25:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GRU",
+          "departureDate": "2020-02-01T18:05:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T19:25:00Z",
+          "flightNumber": "G3-1921",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 70.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 70.9,
+          "saleTotal": 102.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 70.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 7.88
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "PO",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 70.9,
+          "saleTotal": 110.47
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "cab922df04337b7a400b526db5aaedb2",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "G3-1315",
+      "cabin": "EC",
+      "duration": 80,
+      "departureDate": "2020-02-01T19:30:00Z",
+      "arrivalDate": "2020-02-01T20:50:00Z",
+      "direction": "outbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "CGH",
+          "departureDate": "2020-02-01T19:30:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T20:50:00Z",
+          "flightNumber": "G3-1315",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 78.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 78.9,
+          "saleTotal": 110.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 109.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 12.21
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "PO",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 109.9,
+          "saleTotal": 153.8
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "c10fd20b78346465ae383830f91cb56b",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "CGH",
+      "flightNumber": "G3-2181",
+      "cabin": "EC",
+      "duration": 160,
+      "departureDate": "2020-02-01T06:45:00Z",
+      "arrivalDate": "2020-02-01T09:25:00Z",
+      "direction": "outbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 60,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GIG",
+          "departureDate": "2020-02-01T06:45:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T07:45:00Z",
+          "flightNumber": "G3-2181",
+          "isInternational": false
+        },
+        {
+          "duration": 70,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GIG",
+          "to": "CGH",
+          "departureDate": "2020-02-01T08:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T09:25:00Z",
+          "flightNumber": "G3-1061",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 333.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 333.9,
+          "saleTotal": 365.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "1186393d6057411a32213448e9c34200",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CNF",
+      "to": "VCP",
+      "flightNumber": "G3-2181",
+      "cabin": "EC",
+      "duration": 175,
+      "departureDate": "2020-02-01T06:45:00Z",
+      "arrivalDate": "2020-02-01T09:40:00Z",
+      "direction": "outbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 60,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CNF",
+          "to": "GIG",
+          "departureDate": "2020-02-01T06:45:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T07:45:00Z",
+          "flightNumber": "G3-2181",
+          "isInternational": false
+        },
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GIG",
+          "to": "VCP",
+          "departureDate": "2020-02-01T08:25:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-01T09:40:00Z",
+          "flightNumber": "G3-1990",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 507.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 507.9,
+          "saleTotal": 539.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    }
+  ],
+  "inbound": [
+    {
+      "id": "c9fcd9a67d3a140e2545f70877875824",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "G3-1320",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T09:55:00Z",
+      "arrivalDate": "2020-02-02T11:05:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 70,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T09:55:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T11:05:00Z",
+          "flightNumber": "G3-1320",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 374.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 374.9,
+          "saleTotal": 406.59
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 374.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 41.65
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 374.9,
+          "saleTotal": 448.24
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "d8c8b77cb583d299f0e23bd1f5cdec4b",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1304",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T11:15:00Z",
+      "arrivalDate": "2020-02-02T12:30:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T11:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T12:30:00Z",
+          "flightNumber": "G3-1304",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 410.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 410.9,
+          "saleTotal": 443.85
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 520.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 57.87
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 520.9,
+          "saleTotal": 611.72
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "9f47d4597fd5791fe68c124263703e49",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1516",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T14:15:00Z",
+      "arrivalDate": "2020-02-02T15:30:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T14:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T15:30:00Z",
+          "flightNumber": "G3-1516",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 347.9,
+          "saleTotal": 380.85
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 38.65
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 419.5
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "ab327beaa8860a593a22d9c668955401",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1310",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T17:15:00Z",
+      "arrivalDate": "2020-02-02T18:30:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T17:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T18:30:00Z",
+          "flightNumber": "G3-1310",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 347.9,
+          "saleTotal": 380.85
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 38.65
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 419.5
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "87551f640ebe18223470a90234f2c4bb",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "G3-1338",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T19:00:00Z",
+      "arrivalDate": "2020-02-02T20:15:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T19:00:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T20:15:00Z",
+          "flightNumber": "G3-1338",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 816.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 816.9,
+          "saleTotal": 848.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "98cff167568fc118dc8c6e5bf31e5361",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1312",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T19:10:00Z",
+      "arrivalDate": "2020-02-02T20:25:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T19:10:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T20:25:00Z",
+          "flightNumber": "G3-1312",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 347.9,
+          "saleTotal": 380.85
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 347.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 38.65
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 347.9,
+          "saleTotal": 419.5
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "a427cac4282aeabb4cb1ae1023240ddd",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1314",
+      "cabin": "EC",
+      "duration": 75,
+      "departureDate": "2020-02-02T20:35:00Z",
+      "arrivalDate": "2020-02-02T21:50:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:35:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T21:50:00Z",
+          "flightNumber": "G3-1314",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 410.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 410.9,
+          "saleTotal": 443.85
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 520.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 57.87
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 520.9,
+          "saleTotal": 611.72
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "15f472e1d44b24f55d738b9a1fc84ce5",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "GRU",
+      "to": "CNF",
+      "flightNumber": "G3-1326",
+      "cabin": "EC",
+      "duration": 70,
+      "departureDate": "2020-02-02T20:50:00Z",
+      "arrivalDate": "2020-02-02T22:00:00Z",
+      "direction": "inbound",
+      "stops": 0,
+      "trips": [
+        {
+          "duration": 70,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GRU",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:50:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T22:00:00Z",
+          "flightNumber": "G3-1326",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 621.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 31.69,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 621.9,
+          "saleTotal": 653.59
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "766609fd4691b06d26e9e5b4a48e574b",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "G3-1789",
+      "cabin": "EC",
+      "duration": 340,
+      "departureDate": "2020-02-02T11:45:00Z",
+      "arrivalDate": "2020-02-02T17:25:00Z",
+      "direction": "inbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 90,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "VCP",
+          "to": "BSB",
+          "departureDate": "2020-02-02T11:45:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T13:15:00Z",
+          "flightNumber": "G3-1789",
+          "isInternational": false
+        },
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "BSB",
+          "to": "CNF",
+          "departureDate": "2020-02-02T16:10:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T17:25:00Z",
+          "flightNumber": "G3-1702",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 393.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 393.9,
+          "saleTotal": 424.28
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 393.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 43.76
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 393.9,
+          "saleTotal": 468.04
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "20ca16747b66af8bcf0680d523ee1215",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "G3-1795",
+      "cabin": "EC",
+      "duration": 210,
+      "departureDate": "2020-02-02T18:30:00Z",
+      "arrivalDate": "2020-02-02T22:00:00Z",
+      "direction": "inbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 100,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "VCP",
+          "to": "BSB",
+          "departureDate": "2020-02-02T18:30:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T20:10:00Z",
+          "flightNumber": "G3-1795",
+          "isInternational": false
+        },
+        {
+          "duration": 75,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "BSB",
+          "to": "CNF",
+          "departureDate": "2020-02-02T20:45:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T22:00:00Z",
+          "flightNumber": "G3-1704",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 527.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 527.9,
+          "saleTotal": 558.28
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "31bad393f1d9d02bfed10862154d92ae",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "CGH",
+      "to": "CNF",
+      "flightNumber": "G3-1070",
+      "cabin": "EC",
+      "duration": 240,
+      "departureDate": "2020-02-02T18:30:00Z",
+      "arrivalDate": "2020-02-02T22:30:00Z",
+      "direction": "inbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 60,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "CGH",
+          "to": "GIG",
+          "departureDate": "2020-02-02T18:30:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T19:30:00Z",
+          "flightNumber": "G3-1070",
+          "isInternational": false
+        },
+        {
+          "duration": 65,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GIG",
+          "to": "CNF",
+          "departureDate": "2020-02-02T21:25:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T22:30:00Z",
+          "flightNumber": "G3-2188",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 908.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 32.95,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 908.9,
+          "saleTotal": 941.85
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    },
+    {
+      "id": "8f90a1f477926a9b206cc84decf86661",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "G3-1795",
+      "cabin": "EC",
+      "duration": 345,
+      "departureDate": "2020-02-02T18:30:00Z",
+      "arrivalDate": "2020-02-03T00:15:00Z",
+      "direction": "inbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 100,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "VCP",
+          "to": "BSB",
+          "departureDate": "2020-02-02T18:30:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T20:10:00Z",
+          "flightNumber": "G3-1795",
+          "isInternational": false
+        },
+        {
+          "duration": 80,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "BSB",
+          "to": "CNF",
+          "departureDate": "2020-02-02T22:55:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-03T00:15:00Z",
+          "flightNumber": "G3-1706",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": "OW",
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 320.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 320.9,
+          "saleTotal": 351.28
+        },
+        "miles": null,
+        "ota": {
+          "adult": {
+            "quantity": 1,
+            "fare": 320.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "ota",
+                "passengerType": "ADT"
+              },
+              {
+                "id": 3530,
+                "type": "SERVICE_FEE",
+                "value": 35.65
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": {
+              "weight": 10,
+              "prices": [0]
+            },
+            "checked": {
+              "weight": null,
+              "prices": []
+            }
+          },
+          "checkout": {
+            "type": "internal",
+            "target": "maxmilhas"
+          },
+          "familyCode": "LT",
+          "reCharging": null,
+          "recharged": false,
+          "fareTotal": 320.9,
+          "saleTotal": 386.93
+        },
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": "ota",
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "both"
+    },
+    {
+      "id": "7b7f982365af5d96763b9b85a682fe22",
+      "airline": "gol",
+      "airlineTarget": "gol",
+      "from": "VCP",
+      "to": "CNF",
+      "flightNumber": "G3-1993",
+      "cabin": "EC",
+      "duration": 195,
+      "departureDate": "2020-02-02T19:15:00Z",
+      "arrivalDate": "2020-02-02T22:30:00Z",
+      "direction": "inbound",
+      "stops": 1,
+      "trips": [
+        {
+          "duration": 65,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "VCP",
+          "to": "GIG",
+          "departureDate": "2020-02-02T19:15:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T20:20:00Z",
+          "flightNumber": "G3-1993",
+          "isInternational": false
+        },
+        {
+          "duration": 65,
+          "carrier": "GOL",
+          "aircraft": "",
+          "cabin": "EC",
+          "from": "GIG",
+          "to": "CNF",
+          "departureDate": "2020-02-02T21:25:00Z",
+          "stops": 0,
+          "layover": 0,
+          "arrivalDate": "2020-02-02T22:30:00Z",
+          "flightNumber": "G3-2188",
+          "isInternational": false
+        }
+      ],
+      "choosedTripType": null,
+      "availableIn": "price",
+      "pricing": {
+        "airline": {
+          "adult": {
+            "quantity": 1,
+            "fare": 621.9,
+            "fees": [
+              {
+                "type": "BOARDING_TAX",
+                "value": 30.38,
+                "group": "price"
+              }
+            ]
+          },
+          "luggage": {
+            "carryOn": null,
+            "checked": null
+          },
+          "fareTotal": 621.9,
+          "saleTotal": 652.28
+        },
+        "miles": null,
+        "ota": null,
+        "airlineName": "gol",
+        "isInternational": false,
+        "bestPriceAt": "airline",
+        "mmBestPriceAt": null,
+        "savingPercentage": 0
+      },
+      "otaAvailableIn": "airline"
+    }
+  ],
+  "bestPrice": {
+    "pricing": {
+      "airline": null,
+      "miles": null,
+      "ota": null
+    }
+  }
+}

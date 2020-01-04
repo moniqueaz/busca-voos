@@ -1,0 +1,4 @@
+{
+  "/search?time=:dateNow": "/searchTimes",
+  "/search/:id/flights?airline=:airline": "/flights/:airline"
+}

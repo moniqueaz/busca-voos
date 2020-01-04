@@ -1,0 +1,86 @@
+{
+  "searchTimes": {
+    "id": "5e109e210b193f0df56c71f7",
+    "createdDate": "2020-01-04T14:16:01.282Z",
+    "isInternational": false,
+    "isMercosul": false,
+    "fromCountry": "BR",
+    "toCountry": "BR",
+    "airlines": [
+      {
+        "label": "avianca",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      },
+      {
+        "label": "azul",
+        "timeout": 120,
+        "status": {
+          "enable": true,
+          "message": ""
+        }
+      },
+      {
+        "label": "gol",
+        "timeout": 120,
+        "status": {
+          "enable": true,
+          "message": ""
+        }
+      },
+      {
+        "label": "latam",
+        "timeout": 120,
+        "status": {
+          "enable": true,
+          "message": ""
+        }
+      },
+      {
+        "label": "tap",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      },
+      {
+        "label": "others",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      },
+      {
+        "label": "passaredo",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      },
+      {
+        "label": "starAlliance",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      },
+      {
+        "label": "map",
+        "timeout": 120,
+        "status": {
+          "enable": false,
+          "message": ""
+        }
+      }
+    ],
+    "hasPromotion": false
+  },
+  "flights": {}
+}
