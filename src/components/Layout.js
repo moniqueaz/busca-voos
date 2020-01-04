@@ -1,13 +1,12 @@
 import React from 'react';
-import { Provider, connect } from 'react-redux';
+import { Provider } from 'react-redux';
+import store from '../store';
 import ResetStyle from '../style/reset';
 import GlobalStyle from '../style/global';
 
 import api from '../services/api';
 // import styled from 'styled-components';
 // import '../config/ReactotronConfig';
-
-import store from '../store/index';
 
 const Layout = Page => {
   return class PageWrapper extends React.Component {

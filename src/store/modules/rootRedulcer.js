@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import exemplo from './exemplo/reducer';
+import flights from './flights/reducer';
 
 export default combineReducers({
-  exemplo,
+  flights,
 });

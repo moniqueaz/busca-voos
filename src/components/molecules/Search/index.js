@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import { useDispatch, useSelector } from 'react-redux';
+import * as MapDispachToActions from '../../../store/actions/actionCreators';
 
 import api from '../../../services/api';
 import { TOKEN } from '../../../services/auth';
+
+import { Search } from './style';
 
 import airlinesMock from '../../../services/mock.json';
 import vooGolMock from '../../../services/mock-gol.json';
@@ -16,74 +19,74 @@ import {
   FaUserFriends,
 } from 'react-icons/fa';
 
-const Search = styled.form`
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-
-  label {
-    color: #ccc;
-  }
-  input {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: 3px;
-    padding: 5px 10px;
-    color: #333;
-    text-transform: uppercase;
-    flex: 1 1 50%;
-    border-radius: 0;
-
-    &::placeholder {
-      color: #ccc;
-      text-transform: uppercase;
-    }
-  }
-
-  button {
-    height: 100%;
-    flex: 1 1 50%;
-  }
-
-  .search {
-    &__input {
-      flex: 1 1 50%;
-      position: relative;
-      border: 1px solid #ccc;
-      svg {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateX(-50%);
-        color: #159177;
-      }
-    }
-  }
-`;
-
-const FilterComponet = _ => {
+const FilterComponet = () => {
   const [sairDe, setSairDe] = useState('');
   const [irPara, setIrPara] = useState('');
   const [adultos, setAdultos] = useState('');
   const [dataIda, setDataIda] = useState('');
   const [dataVolta, setDataVolta] = useState('');
+  const flights = useSelector(state => state.flights);
+  const [airlines, setAirlines] = useState([]);
+
+  const dispatch = useDispatch();
 
   function handleInputChange(e) {
     // set(e.target.value);
   }
 
+  function handlerMountToFlights(flights) {
+    dispatch(MapDispachToActions.mountToFlights(flights));
+  }
+
   async function handleSubmit(e) {
     e.preventDefault();
 
-    let { airlines } = await getAirlines();
-
+    let { airlines, id } = await getAirlines();
     let airlinesEnabled = airlinesStatusEnables(airlines);
-    console.log('airlinesEnabled: ', airlinesEnabled);
+    let flights = await getFlights(id, airlinesEnabled);
+    console.log('flights: ', flights);
 
-    // for (let airline of enableAirlines) {
+    // handlerMountToVoos('voo2');
+  }
+
+  async function getFlights(id, airlinesEnabled) {
+    const flights = [];
+    let count = 0;
+    for (let airline of airlinesEnabled) {
+      await api
+        .get(`/search/${id}/flights?airline=${airline.label}`, {
+          headers: {
+            Authorization: `Bearer ${TOKEN}`,
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': 'Authorization',
+            'Access-Control-Allow-Methods':
+              'GET, POST, OPTIONS, PUT, PATCH, DELETE',
+            'Content-Type': 'application/json',
+          },
+        })
+        .then(response => {
+          console.log('response: ', response);
+          // return response;
+        })
+        .catch(error => {
+          count += 1;
+          flights.push(mock(count));
+          // return error;
+        });
+    }
+    return flights;
+  }
+
+  function mock(count) {
+    if (count === 1) {
+      return vooGolMock;
+    } else if (count === 2) {
+      return vooAzulMock;
+    } else if (count === 3) {
+      return vooLatamMock;
+    } else {
+      return {};
+    }
   }
 
   async function getAirlines() {
@@ -121,8 +124,6 @@ const FilterComponet = _ => {
         return error;
       });
   }
-
-  function mountListAirlines(airlines) {}
 
   function airlinesStatusEnables(airlines, status = true) {
     return airlines.filter(airline => airline.status.enable === status);
@@ -175,7 +176,6 @@ const FilterComponet = _ => {
         />
         <FaCalendarAlt />
       </div>
-
       <div className="search__input">
         <label htmlFor="adulto">Adultos</label>
         <input
