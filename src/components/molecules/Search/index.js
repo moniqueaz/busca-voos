@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import api from '../../../services/api';
 import { TOKEN } from '../../../services/auth';
 
-import airlines from '../../../services/mock.json';
-import vooGol from '../../../services/mock-gol.json';
-import vooAzul from '../../../services/mock-azul.json';
-import vooLatam from '../../../services/mock-latan.json';
+import airlinesMock from '../../../services/mock.json';
+import vooGolMock from '../../../services/mock-gol.json';
+import vooAzulMock from '../../../services/mock-azul.json';
+import vooLatamMock from '../../../services/mock-latan.json';
 
 import {
   FaSearch,
@@ -77,6 +77,16 @@ const FilterComponet = _ => {
 
   async function handleSubmit(e) {
     e.preventDefault();
+
+    let { airlines } = await getAirlines();
+
+    let airlinesEnabled = airlinesStatusEnables(airlines);
+    console.log('airlinesEnabled: ', airlinesEnabled);
+
+    // for (let airline of enableAirlines) {
+  }
+
+  async function getAirlines() {
     const postData = {
       tripType: 'RT',
       from: 'BHZ', //origem
@@ -89,7 +99,7 @@ const FilterComponet = _ => {
       infants: 0, //bebês
     };
 
-    await api
+    return await api
       .post(`search?time=${Date.now()}`, postData, {
         headers: {
           Authorization: `Bearer ${TOKEN}`,
@@ -105,9 +115,17 @@ const FilterComponet = _ => {
         return response;
       })
       .catch(error => {
-        console.log('error: ', airlines);
+        console.log('error: ', airlinesMock);
+
+        return airlinesMock;
         return error;
       });
+  }
+
+  function mountListAirlines(airlines) {}
+
+  function airlinesStatusEnables(airlines, status = true) {
+    return airlines.filter(airline => airline.status.enable === status);
   }
 
   return (
