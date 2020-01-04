@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
    v2.0 | 20110126
    License: none (public domain)
 */
-const GlobalStyle = createGlobalStyle`
+const ResetStyle = createGlobalStyle`
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,7 +50,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+button{
+  background-color: transparent;
+  border: 0;
+  border-right: 0;
+}
 
 `;
 
-export default GlobalStyle;
+export default ResetStyle;

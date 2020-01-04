@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaSearch, FaChevronDown, FaPlus } from 'react-icons/fa';
 
 const Button = styled.button`
   background-color: #159177;
@@ -16,6 +15,24 @@ const Button = styled.button`
   justify-content: center;
 
   &:active {
+  }
+
+  &.neutral {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    svg {
+      margin-right: 10px;
+      color: #159177;
+    }
   }
 
   &.ghost {
@@ -57,10 +74,7 @@ const ButtonComponent = prop => {
       type="button"
       className={prop.className ? `button ${prop.className}` : 'button'}
     >
-      {prop.plus && <FaPlus />}
-      {prop.search && <FaSearch />}
       {prop.children ? prop.children : 'Button'}
-      {prop.arrow && <FaChevronDown />}
     </Button>
   );
 };

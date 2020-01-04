@@ -9,17 +9,18 @@ const Item = styled.li`
   flex: 1 1 auto;
   text-align: center;
   padding: 5px;
+  text-transform: uppercase;
   span {
     font-weight: bold;
     display: block;
     text-transform: uppercase;
   }
 `;
-const ItemComponet = ({ airline, infor }) => {
+const ItemComponet = ({ data_1, data_2 }) => {
   return (
     <Item>
-      <span>{airline}</span>
-      {infor}
+      <span>{data_1}</span>
+      {data_2}
     </Item>
   );
 };

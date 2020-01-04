@@ -1,6 +1,7 @@
 import React from 'react';
 import { Provider, connect } from 'react-redux';
-import GlobalStyle from '../style/reset';
+import ResetStyle from '../style/reset';
+import GlobalStyle from '../style/global';
 
 import api from '../services/api';
 // import styled from 'styled-components';
@@ -13,6 +14,7 @@ const Layout = Page => {
     render() {
       return (
         <Provider store={store}>
+          <ResetStyle />
           <GlobalStyle />
           <Page />
         </Provider>

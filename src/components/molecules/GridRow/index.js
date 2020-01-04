@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+
+import { FaPlus } from 'react-icons/fa';
+
 import ListPrice from '../../atoms/ListPrice';
 import BestPrice from '../../atoms/BestPrice';
 import TextInfor from '../../atoms/TextInfor';
@@ -39,15 +42,19 @@ const GridRowComponet = _ => {
     <GridRow>
       {/* loop */}
       <ItensCol>
-        <Item airline="gol" infor="G3 9018" />
-        <Item airline="gol" infor="G3 9018" />
-        <Item airline="gol" infor="G3 9018" />
+        <Item data_1="gol" data_2="G3 9018" />
+        <Item data_1="06:55" data_2="cnf" />
+        <Item data_1="1h55" data_2="voo direto" />
+        <Item data_1="06:55" data_2="gig" />
       </ItensCol>
       <PriceInfo>
         <ListPrice className="item__list-price" listPrice="20" airlines="gol" />
         <BestPrice className="item__best-price">10</BestPrice>
-        <TextInfor className="item__info">Text</TextInfor>
-        <Button className="ghost" plus></Button>
+        <TextInfor className="item__info">Economize 42% na MaxMilhas</TextInfor>
+        <Button className="ghost">
+          <FaPlus />
+          Detalhes do Voo
+        </Button>
       </PriceInfo>
     </GridRow>
   );

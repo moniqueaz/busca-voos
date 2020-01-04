@@ -7,12 +7,14 @@ const Grid = styled.div``;
 
 const GridComponet = _ => {
   return (
-    <Grid>
-      <GridHeader />
-      {/* loop */}
-      <GridRow />
-      <GridRow />
-    </Grid>
+    <>
+      <Grid>
+        <GridHeader />
+        {/* loop */}
+        <GridRow />
+        <GridRow />
+      </Grid>
+    </>
   );
 };
 
