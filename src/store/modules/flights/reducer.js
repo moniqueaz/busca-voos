@@ -1,7 +1,20 @@
-export default function flights(state = {}, action) {
+export default function flights(
+  state = {
+    flights: {
+      flag: 'outbound',
+      order: 'price',
+      outbound: [],
+      inbound: [],
+    },
+  },
+  action
+) {
   switch (action.type) {
     case 'MOUNT_TO_FLIGHTS':
-      return action.flights;
+      return {
+        ...state,
+        flights: action.flight,
+      };
     default:
       return state;
   }

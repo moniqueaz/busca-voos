@@ -2,7 +2,7 @@ import styled, { keyframes, css } from 'styled-components';
 
 import { device, colors, font } from '../../../style/variaveis';
 
-export const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
+export const HeaderMiddleContainer = styled.form.attrs(props => ({}))`
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
@@ -14,16 +14,15 @@ export const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
   top: 130px;
   background-color: ${colors.white};
   display: block;
-
-  ${props =>
-    props.status === 'disabled' &&
-    css`
-      & {
-        display: none;
-      }
-    `}
-
-  @media ${device.laptop} {
+  z-index: 1;
+    ${props =>
+      props.status === 'disabled' &&
+      css`
+        & {
+          display: none;
+        }
+      `}
+    @media ${device.laptop} {
     position: static;
     display: block;
     display: flex;
@@ -49,11 +48,11 @@ export const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
       border: 0;
       margin-bottom: 0;
       padding: 0;
-      font-size: ${font.desktop.md}
+      font-size: ${font.desktop.md};
     }
 
     @media ${device.laptopL} {
-      font-size: ${font.desktop.lg}
+      font-size: ${font.desktop.lg};
     }
 
     &::placeholder {
@@ -137,25 +136,28 @@ export const Adults = styled.div`
   }
 `;
 export const Submit = styled.div`
-  flex: 0 0 16.666%;
   width: 100%;
   height: auto;
   text-align: right;
-  padding-right: 20px;
-  display: none;
+  /* display: none; */
 
   @media ${device.laptop} {
+    flex: 0 0 16.666%;
     display: block;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 20px;
   }
   button {
     background-color: ${colors.primary};
     border-radius: 5px;
+    width: 100%;
+    padding: 20px 30px;
 
     @media ${device.laptop} {
       padding: 20px 10px;
+      width: auto;
     }
 
     @media ${device.laptopL} {

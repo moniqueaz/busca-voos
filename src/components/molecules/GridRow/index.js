@@ -1,7 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 import { FaPlus } from 'react-icons/fa';
+
+import { device, colors, font } from '../../../style/variaveis';
 
 import ListPrice from '../../atoms/ListPrice';
 import BestPrice from '../../atoms/BestPrice';

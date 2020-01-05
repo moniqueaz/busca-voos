@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import HeaderTop from './molecules/HeaderTop';
 import HeaderMiddle from './molecules/HeaderMiddle';
 
-const HeaderContainer = styled.div``;
+const HeaderContainer = styled.div`
+  z-index: 2;
+`;
 
 const Header = _ => {
   return (

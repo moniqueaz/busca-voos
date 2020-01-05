@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import * as MapDispachToActions from '../../../store/actions/actionCreators';
+
 import styled from 'styled-components';
 import GridHeader from '../../molecules/GridHeader';
 import GridRow from '../../molecules/GridRow';
@@ -10,10 +13,17 @@ const Grid = styled.div``;
 
 const GridComponet = _ => {
   // mockGol
-  const [flights, setFlights] = useState({});
+  const flights = useSelector(state => state.flights);
+  const dispatch = useDispatch();
+
+  function handlerMountToFlights() {
+    dispatch(MapDispachToActions.mountToFlights(flights));
+  }
 
   //didUpdate
-  useEffect(() => {}, [flights]);
+  useEffect(() => {
+    console.log('flights: ', flights);
+  }, [flights]);
 
   //didMount
   useEffect(() => {}, []);
@@ -25,6 +35,7 @@ const GridComponet = _ => {
 
   return (
     <>
+      <button onClick={handlerMountToFlights}>Teste</button>
       <Grid>
         {/* <GridHeader /> */}
         {/* loop */}

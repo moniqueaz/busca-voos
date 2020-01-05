@@ -28,6 +28,25 @@ const FilterComponet = () => {
   const flights = useSelector(state => state.flights);
   const [airlines, setAirlines] = useState([]);
 
+  flights = {
+    flag: 'outbound',
+    order: 'price',
+    outbound: [],
+    inbound: [],
+  };
+
+  const [postData, setPostData] = useState({
+    tripType: 'RT',
+    from: 'BHZ', //origem
+    to: 'SAO', //destino
+    outboundDate: '2020-02-01', //data de partida
+    inboundDate: '2020-02-02', //data de volta
+    cabin: 'EC', //classe econômica (EC) ou executiva (EX)
+    adults: 1, //adultos
+    children: 0, //crianças
+    infants: 0, //bebês
+  });
+
   const dispatch = useDispatch();
 
   function handleInputChange(e) {
@@ -43,14 +62,27 @@ const FilterComponet = () => {
 
     let { airlines, id } = await getAirlines();
     let airlinesEnabled = airlinesStatusEnables(airlines);
-    let flights = await getFlights(id, airlinesEnabled);
+    let result = await getFlights(id, airlinesEnabled);
+
+    outbound = result.map(rl => rl.outbound);
+
+    inbound = result.map(rl => rl.inbound);
+
+    let state = {
+      flag: 'outbound',
+      order: 'price',
+      outbound: outbound,
+      inbound: inbound,
+    };
+    // setFlights({ ...flights, state });
+
     console.log('flights: ', flights);
 
     // handlerMountToVoos('voo2');
   }
 
   async function getFlights(id, airlinesEnabled) {
-    const flights = [];
+    const trips = [];
     let count = 0;
     for (let airline of airlinesEnabled) {
       await api
@@ -70,11 +102,11 @@ const FilterComponet = () => {
         })
         .catch(error => {
           count += 1;
-          flights.push(mock(count));
+          trips.push(mock(count));
           // return error;
         });
     }
-    return flights;
+    return trips;
   }
 
   function mock(count) {
@@ -90,18 +122,6 @@ const FilterComponet = () => {
   }
 
   async function getAirlines() {
-    const postData = {
-      tripType: 'RT',
-      from: 'BHZ', //origem
-      to: 'SAO', //destino
-      outboundDate: '2020-02-01', //data de partida
-      inboundDate: '2020-02-02', //data de volta
-      cabin: 'EC', //classe econômica (EC) ou executiva (EX)
-      adults: 1, //adultos
-      children: 0, //crianças
-      infants: 0, //bebês
-    };
-
     return await api
       .post(`search?time=${Date.now()}`, postData, {
         headers: {
