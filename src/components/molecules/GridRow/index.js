@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled, { keyframes, css } from 'styled-components';
 
 import { FaPlus } from 'react-icons/fa';
@@ -77,10 +77,24 @@ const GridRowComponet = ({ flight }) => {
   const {
     ota,
     miles,
-    airline: airlinePrice,
+    airline,
     bestPriceAt,
     airlineName,
+    savingPercentage,
+    mmBestPriceAt,
   } = pricing;
+
+  const bta = bestPriceAt === 'ota' || bestPriceAt === 'miles' ? true : false;
+
+  // Exclusivo na MaxMilhas
+  // Na AZUL R$ 143,49
+  // Na LATAM R$ 141,69
+
+  useEffect(() => {
+    // pricing[mmBestPriceAt];
+    // console.log('pricing[mmBestPriceAt]: ', pricing[mmBestPriceAt]);
+    // console.log('mmBestPriceAt: ', mmBestPriceAt);
+  }, []);
 
   return (
     <GridRow>
@@ -90,12 +104,24 @@ const GridRowComponet = ({ flight }) => {
         <Prices>
           <ListPrice
             className="item__list-price"
-            listPrice="20"
-            airlines="gol"
+            listPrice={bta && airline && airline.saleTotal}
+            airlines={bta && airline && airlineName}
           />
-          <BestPrice className="item__best-price">10</BestPrice>
-          <TextInfor className="item__info">
-            Economize 42% na MaxMilhas
+          <BestPrice className="item__best-price">
+            {pricing[mmBestPriceAt]
+              ? pricing[mmBestPriceAt].saleTotal
+              : pricing[bestPriceAt].saleTotal}
+          </BestPrice>
+          <TextInfor
+            className={bta && airline ? 'item__info orange' : 'item__info'}
+          >
+            {savingPercentage
+              ? `Economize ${Math.round(savingPercentage)}% na MaxMilhas`
+              : `${
+                  !airline
+                    ? 'Exclusivo na MaxMilhas'
+                    : `Menor preço na ${bta ? 'MaxMilhas' : 'Cia Aéria'}`
+                }`}
           </TextInfor>
         </Prices>
         <Details>

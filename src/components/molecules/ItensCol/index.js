@@ -48,7 +48,7 @@ const ItensCol = ({ trip }) => {
         data_2={from}
       />
       <Item
-        data_1={`${Math.floor(duration / 60)} : ${duration % 60}h`}
+        data_1={`${Math.floor(duration / 60)}:${duration % 60}h`}
         data_2={
           !stops
             ? 'voo direto'

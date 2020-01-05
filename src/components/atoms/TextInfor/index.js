@@ -1,19 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
+import { device, colors, font } from '../../../style/variaveis';
 
 const TextInfor = styled.span`
-  color: #333;
+  color: ${colors.secondary};
   width: 100%;
-  font-size: 12px;
-  text-transform: uppercase;
+  font-size: ${font.mobile.sm};
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: center;
-  font-weight: bold;
+  font-weight: 500;
+
+  @media ${device.laptop} {
+    text-transform: uppercase;
+  }
 
   &.orange {
-    color: orange;
+    color: ${colors.infor};
+    font-weight: bold;
   }
 `;
 const TextInforComponet = prop => {
