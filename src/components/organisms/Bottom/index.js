@@ -23,12 +23,8 @@ const Bottom = styled.div`
 `;
 
 const BottomComponet = _ => {
-  return (
-    <Bottom>
-      <Filter />
-      <Milhas />
-    </Bottom>
-  );
+  return <Bottom>{/* <Filter />
+      <Milhas /> */}</Bottom>;
 };
 
 export default BottomComponet;

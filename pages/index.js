@@ -7,9 +7,9 @@ import Bottom from '../src/components/organisms/Bottom';
 function Home() {
   return (
     <div>
-      <Header></Header>
-      <Grid></Grid>
-      <Bottom></Bottom>
+      {/* <Header></Header> */}
+      {/* <Grid></Grid> */}
+      {/* <Bottom></Bottom> */}
     </div>
   );
 }

@@ -40,8 +40,8 @@ export const font = {
   mobile: {
     xs: '10px',
     sm: '12px',
-    ms: '16px',
-    lg: '20px',
+    ms: '14px',
+    lg: '18px',
     xl: '22px',
   },
 };
