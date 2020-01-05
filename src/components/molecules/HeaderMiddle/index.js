@@ -152,11 +152,14 @@ const Submit = styled.div`
   width: 100%;
   height: auto;
   text-align: right;
-  padding: 20px;
+  padding-right: 20px;
   display: none;
 
   @media ${device.desktop.laptop} {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
   button {
     background-color: ${colors.primary};
