@@ -33,11 +33,10 @@ const HeaderMiddle = _ => {
   const [from, setFrom] = useState('BHZ');
   const [to, setTo] = useState('SAO');
   const [departureDate, setDepartureDate] = useState(new Date());
-  const [arraivalDate, setArraivalDate] = useState(new Date());
+  const [arrivalDate, setArraivalDate] = useState(new Date());
   const [adult, setAdult] = useState(1);
   const [search, setSearch] = useState('disabled');
   const flights = useSelector(state => state.flights);
-  console.log('flights: ', flights);
 
   const [postData, setPostData] = useState({
     tripType: 'RT',
@@ -64,21 +63,28 @@ const HeaderMiddle = _ => {
     let airlinesEnabled = airlinesStatusEnables(airlines);
     let result = await getFlights(id, airlinesEnabled);
 
-    let outbound = result.map(rl => rl.outbound);
+    let outbound = reduceArray(result, 'outbound');
 
-    let inbound = result.map(rl => rl.inbound);
+    let inbound = reduceArray(result, 'inbound');
 
-    let state = {
+    let stateFlights = {
       flag: 'outbound',
       order: 'price',
       outbound: outbound,
       inbound: inbound,
     };
-    // setFlights({ ...flights, state });
 
-    handlerMountToFlights(state);
+    handlerMountToFlights(stateFlights);
+  }
 
-    // handlerMountToVoos('voo2');
+  function reduceArray(array, direction) {
+    return array
+      .map(rl => rl[direction])
+      .reduce(
+        (acumulador, valorAtual) =>
+          (acumulador = [...acumulador, ...valorAtual]),
+        []
+      );
   }
 
   async function getFlights(id, airlinesEnabled) {
@@ -152,10 +158,7 @@ const HeaderMiddle = _ => {
   function handleInputChange() {}
 
   function toggleSearch() {
-    console.log('click');
     setSearch(search === 'disabled' ? 'enabled' : 'disabled');
-    console.log(search);
-    console.log(search === 'disabled');
   }
 
   return (
@@ -179,9 +182,9 @@ const HeaderMiddle = _ => {
           <DateT>
             <FaCalendarAlt />
             {`
-            ${arraivalDate.getDate()}
-            ${arraivalDate.getMonth()}
-            ${arraivalDate.getFullYear()}
+            ${arrivalDate.getDate()}
+            ${arrivalDate.getMonth()}
+            ${arrivalDate.getFullYear()}
             `}
           </DateT>
         </Dates>
@@ -226,7 +229,7 @@ const HeaderMiddle = _ => {
         <Label text="Volta" from="volta">
           <DatePicker
             id="volta"
-            selected={arraivalDate}
+            selected={arrivalDate}
             onChange={date => setArraivalDate(date)}
           />
           <FaCalendarAlt />

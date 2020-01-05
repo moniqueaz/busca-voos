@@ -1,20 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { device, colors, font } from '../../../style/variaveis';
+
 const ListPrice = styled.div`
-  color: #333;
+  color: ${colors.secondary};
   width: 100%;
-  font-size: 14px;
+  font-size: ${font.mobile.md};
   display: flex;
   align-items: center;
   justify-content: center;
 
   /* text-decoration: line-through; */
-  font-weight: 100;
+  font-weight: 500;
   text-transform: uppercase;
   position: relative;
 
-  @media (min-width: 1025px) {
+  @media ${device.laptop} {
     /* text-decoration: none; */
     font-weight: bold;
     &:after {
@@ -24,7 +26,7 @@ const ListPrice = styled.div`
       left: 50%;
       width: 100%;
       height: 1px;
-      background-color: #333;
+      background-color: ${colors.secondary};
       transform: translateX(-50%);
     }
   }
@@ -40,10 +42,10 @@ const ListPrice = styled.div`
       left: 50%;
       width: 100%;
       height: 1px;
-      background-color: #333;
+      background-color: ${colors.secondary};
       transform: translateX(-50%);
     }
-    @media (min-width: 1025px) {
+    @media ${device.laptop} {
       /* text-decoration: line-through; */
       &:after {
         display: none;

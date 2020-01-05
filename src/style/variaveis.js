@@ -28,6 +28,7 @@ export const colors = {
   error: '#fe0000',
   infor: '#ddaf29',
   grayLight: '#e9ebec',
+  grayDark: '#788186',
   blueLight: '#eef3f9',
 };
 

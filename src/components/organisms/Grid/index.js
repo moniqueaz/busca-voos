@@ -13,13 +13,13 @@ import vooLatamMock from '../../../services/mock-latan.json';
 
 const Grid = styled.div`
   margin: 20px;
-  background-color: ${colors.white};
 `;
 
 const GridComponet = _ => {
   // mockGol
-  const flights = useSelector(state => state.flights);
+  const { flights } = useSelector(state => state.flights);
   const dispatch = useDispatch();
+  const [isLoading, setLoading] = useState('true');
 
   function handlerMountToFlights() {
     dispatch(MapDispachToActions.mountToFlights(flights));
@@ -38,13 +38,19 @@ const GridComponet = _ => {
     return () => {};
   }, []);
 
-  return (
+  return flights[flights.flag].length ? (
     <>
       <Grid>
         <GridHeader />
-        {/* loop */}
-        <GridRow />
-        <GridRow />
+        {flights[flights.flag].map(flight => {
+          return <GridRow key={flight.id} flight={flight} />;
+        })}
+      </Grid>
+    </>
+  ) : (
+    <>
+      <Grid>
+        <GridHeader />
       </Grid>
     </>
   );

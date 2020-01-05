@@ -5,7 +5,7 @@ import styled, { keyframes, css } from 'styled-components';
 
 import { device, colors, font } from '../../../style/variaveis';
 
-const SelectSenseContainer = styled.div`
+const SelectDirectionContainer = styled.div`
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -29,32 +29,32 @@ const SelectSenseContainer = styled.div`
   }
 `;
 
-const SelectSense = _ => {
-  const [sense, setSense] = useState('outbound');
+const SelectDirection = _ => {
+  const [direction, setDirection] = useState('outbound');
 
-  function setSelectSense(status) {
-    setSense(status);
+  function setSelectDirection(status) {
+    setDirection(status);
   }
   return (
-    <SelectSenseContainer>
+    <SelectDirectionContainer>
       <button
         onClick={() => {
-          setSelectSense('outbound');
+          setSelectDirection('outbound');
         }}
-        className={sense === 'outbound' ? 'active' : ''}
+        className={direction === 'outbound' ? 'active' : ''}
       >
         Selecione sua ida
       </button>
       <button
         onClick={() => {
-          setSelectSense('inbound');
+          setSelectDirection('inbound');
         }}
-        className={sense === 'inbound' ? 'active' : ''}
+        className={direction === 'inbound' ? 'active' : ''}
       >
         Selecionei sua volta
       </button>
-    </SelectSenseContainer>
+    </SelectDirectionContainer>
   );
 };
 
-export default SelectSense;
+export default SelectDirection;

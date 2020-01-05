@@ -22,7 +22,7 @@ const GridHeader = styled.ul`
     flex: 1 1 25%;
     text-align: center;
     & + li {
-      border-left: 1px solid ${colors.grayLight};
+      border-left: 1px solid ${colors.grayDark};
     }
   }
   button {

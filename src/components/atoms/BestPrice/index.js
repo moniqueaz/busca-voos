@@ -1,14 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { device, colors, font } from '../../../style/variaveis';
+
 const BestPrice = styled.button`
-  background-color: #159177;
+  background-color: ${colors.primary};
   border-radius: 5px;
   color: white;
   width: 100%;
   border: 0;
   height: 40px;
-  font-size: 14px;
+  font-size: ${font.mobile.md};
   font-weight: bold;
   display: flex;
   align-items: center;
