@@ -36,6 +36,10 @@ const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
 
   @media ${device.laptop} {
     position: static;
+    display: block;
+    display: flex;
+    border: 1px solid ${colors.grayLight};
+    padding: 0;
   }
 
   .react-datepicker-wrapper {
@@ -50,6 +54,18 @@ const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
     color: ${colors.primary};
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: ${font.family.primary};
+
+    @media ${device.laptop} {
+      border: 0;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: ${font.desktop.md}
+    }
+
+    @media ${device.laptopL} {
+      font-size: ${font.desktop.lg}
+    }
 
     &::placeholder {
       color: ${colors.grayLight};
@@ -58,10 +74,14 @@ const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
 
   svg {
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 50%;
-    transform: translateX(-50%);
     color: ${colors.primary};
+    transform: translateY(-50%);
+    @media ${device.laptop} {
+      width: 25px;
+      height: 25px;
+    }
   }
 `;
 const Filter = styled.button`
@@ -125,6 +145,48 @@ const Adults = styled.div`
   font-size: ${font.mobile.sm};
   svg {
     margin-right: 5px;
+  }
+`;
+const Submit = styled.div`
+  flex: 0 0 16.666%;
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding: 20px;
+  display: none;
+
+  @media ${device.desktop.laptop} {
+    display: block;
+  }
+  button {
+    background-color: ${colors.primary};
+    border-radius: 5px;
+
+    @media ${device.laptop} {
+      padding: 20px 10px;
+    }
+
+    @media ${device.laptopL} {
+      padding: 20px 30px;
+    }
+
+    span {
+      font-weight: bold;
+      color: ${colors.white};
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        color: ${colors.white};
+        position: static;
+        transform: none;
+        margin-right: 5px;
+        @media ${device.laptop} {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
   }
 `;
 
@@ -229,6 +291,14 @@ const HeaderMiddle = _ => {
           />
           <FaUserFriends />
         </Label>
+        <Submit>
+          <button>
+            <span>
+              <FaSearch />
+              Pesquisar
+            </span>
+          </button>
+        </Submit>
       </HeaderMiddleContainer>
     </>
   );

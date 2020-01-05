@@ -4,6 +4,14 @@ import { device, colors, font } from '../../../style/variaveis';
 
 const LabelContainer = styled.div`
   position: relative;
+  @media ${device.laptop} {
+    flex: 0 0 16.666%;
+    padding: 20px;
+
+    & + div {
+      border-left: 1px solid ${colors.grayLight};
+    }
+  }
   label {
     display: flex;
     flex-direction: column;

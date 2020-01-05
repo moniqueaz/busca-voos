@@ -34,14 +34,14 @@ export const font = {
   desktop: {
     xs: '12px',
     sm: '14px',
-    ms: '18px',
+    md: '18px',
     lg: '22px',
     xl: '24px',
   },
   mobile: {
     xs: '10px',
     sm: '12px',
-    ms: '14px',
+    md: '14px',
     lg: '18px',
     xl: '22px',
   },
