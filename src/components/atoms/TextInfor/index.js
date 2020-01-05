@@ -5,7 +5,6 @@ const TextInfor = styled.span`
   color: #333;
   width: 100%;
   font-size: 12px;
-  font-family: sans-serif;
   text-transform: uppercase;
   display: flex;
   align-items: center;

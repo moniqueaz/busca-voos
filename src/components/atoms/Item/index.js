@@ -5,7 +5,6 @@ const Item = styled.li`
   display: inline-block;
   /* list-style: none; */
   color: #333;
-  font-family: sans-serif;
   flex: 1 1 auto;
   text-align: center;
   padding: 5px;

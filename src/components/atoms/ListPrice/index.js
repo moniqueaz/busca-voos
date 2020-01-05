@@ -1,12 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { device } from '../../../style/device';
 
 const ListPrice = styled.div`
   color: #333;
   width: 100%;
   font-size: 14px;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;

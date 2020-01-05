@@ -26,7 +26,7 @@ const GridComponet = _ => {
   return (
     <>
       <Grid>
-        <GridHeader />
+        {/* <GridHeader /> */}
         {/* loop */}
         <GridRow />
         <GridRow />

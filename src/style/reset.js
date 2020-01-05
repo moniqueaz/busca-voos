@@ -1,4 +1,3 @@
-import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -19,7 +18,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -50,12 +49,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-button{
-  background-color: transparent;
-  border: 0;
-  border-right: 0;
-}
-
 `;
 
 export default ResetStyle;
