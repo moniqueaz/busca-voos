@@ -11,6 +11,7 @@ const SelectSenseContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid ${colors.grayLight};
+  background-color: ${colors.white};
 
   button {
     border-bottom: 2px solid ${colors.grayLight};

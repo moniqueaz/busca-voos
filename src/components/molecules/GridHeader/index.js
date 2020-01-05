@@ -1,9 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
+
 import { FaChevronDown } from 'react-icons/fa';
 
+import { device, colors, font } from '../../../style/variaveis';
+
 const GridHeader = styled.ul`
-  background-color: #889395;
+  background-color: ${colors.secondary};
   border-radius: 5px 5px 0 0;
   width: 100%;
   height: 50px;
@@ -11,26 +14,35 @@ const GridHeader = styled.ul`
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
+  border: 1px solid ${colors.grayLight};
   li {
     width: auto;
     height: 100%;
-    border: 1px solid #7b8688;
+    padding: 10px;
+    flex: 1 1 25%;
+    text-align: center;
     & + li {
-      border-left: 1px solid #7b8688;
+      border-left: 1px solid ${colors.grayLight};
     }
   }
   button {
-    width: auto;
-    height: 100%;
-    color: #fff;
-    padding: 10px;
+    color: ${colors.white};
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: ${font.mobile.sm};
+    width: 100%;
+    height: 100%;
+    text-align: center;
     svg {
-      color: #159177;
+      color: ${colors.primary};
       margin-left: 10px;
+      display: none;
+
+      @media ${device.laptop} {
+        display: inline-block;
+      }
     }
   }
 `;

@@ -28,6 +28,7 @@ export const colors = {
   error: '#fe0000',
   infor: '#ddaf29',
   grayLight: '#e9ebec',
+  blueLight: '#eef3f9',
 };
 
 export const font = {

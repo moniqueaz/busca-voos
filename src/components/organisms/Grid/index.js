@@ -1,15 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import styled from 'styled-components';
 import * as MapDispachToActions from '../../../store/actions/actionCreators';
 
-import styled from 'styled-components';
+import { device, colors, font } from '../../../style/variaveis';
+
 import GridHeader from '../../molecules/GridHeader';
 import GridRow from '../../molecules/GridRow';
 import vooGolMock from '../../../services/mock-gol.json';
 import vooAzulMock from '../../../services/mock-azul.json';
 import vooLatamMock from '../../../services/mock-latan.json';
 
-const Grid = styled.div``;
+const Grid = styled.div`
+  margin: 20px;
+  background-color: ${colors.white};
+`;
 
 const GridComponet = _ => {
   // mockGol
@@ -35,9 +40,8 @@ const GridComponet = _ => {
 
   return (
     <>
-      <button onClick={handlerMountToFlights}>Teste</button>
       <Grid>
-        {/* <GridHeader /> */}
+        <GridHeader />
         {/* loop */}
         <GridRow />
         <GridRow />
