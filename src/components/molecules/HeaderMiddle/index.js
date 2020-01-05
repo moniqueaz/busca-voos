@@ -1,8 +1,15 @@
 import React, { useState } from 'react';
-import styled, { keyframes, css } from 'styled-components';
 import DatePicker from 'react-datepicker';
 
-import { device, colors, font } from '../../../style/variaveis';
+import {
+  Filter,
+  HeaderMiddleContainer,
+  Trip,
+  Submit,
+  Dates,
+  DateT,
+  Adults,
+} from './style';
 
 import Label from '../../atoms/Label';
 
@@ -12,186 +19,6 @@ import {
   FaMapMarkerAlt,
   FaUserFriends,
 } from 'react-icons/fa';
-
-const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  padding: 20px;
-  border-bottom: 2px solid ${colors.gray};
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 130px;
-  background-color: ${colors.white};
-  display: block;
-
-  ${props =>
-    props.status === 'disabled' &&
-    css`
-      & {
-        display: none;
-      }
-    `}
-
-  @media ${device.laptop} {
-    position: static;
-    display: block;
-    display: flex;
-    border: 1px solid ${colors.grayLight};
-    padding: 0;
-  }
-
-  .react-datepicker-wrapper {
-    width: 100%;
-  }
-
-  input {
-    background-color: transparent;
-    border: 1px solid ${colors.gray};
-    width: 100%;
-    padding: 10px;
-    color: ${colors.primary};
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: ${font.family.primary};
-
-    @media ${device.laptop} {
-      border: 0;
-      margin-bottom: 0;
-      padding: 0;
-      font-size: ${font.desktop.md}
-    }
-
-    @media ${device.laptopL} {
-      font-size: ${font.desktop.lg}
-    }
-
-    &::placeholder {
-      color: ${colors.grayLight};
-    }
-  }
-
-  svg {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    color: ${colors.primary};
-    transform: translateY(-50%);
-    @media ${device.laptop} {
-      width: 25px;
-      height: 25px;
-    }
-  }
-`;
-const Filter = styled.button`
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10px;
-  width: 100%;
-
-  @media ${device.laptop} {
-    display: none;
-  }
-
-  svg {
-    color: ${colors.primary};
-  }
-`;
-const Trip = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  span {
-    font-weight: bold;
-    font-size: ${font.mobile.ms};
-  }
-  svg {
-    margin-right: 5px;
-  }
-`;
-const Dates = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10px;
-  border: 1px solid ${colors.gray};
-  border-top: 0;
-  border-bottom: 0;
-`;
-const DateT = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  font-size: ${font.mobile.sm};
-  & + div {
-    padding-left: 10px;
-  }
-  svg {
-    margin-right: 5px;
-  }
-`;
-const Adults = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  font-size: ${font.mobile.sm};
-  svg {
-    margin-right: 5px;
-  }
-`;
-const Submit = styled.div`
-  flex: 0 0 16.666%;
-  width: 100%;
-  height: auto;
-  text-align: right;
-  padding-right: 20px;
-  display: none;
-
-  @media ${device.desktop.laptop} {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  button {
-    background-color: ${colors.primary};
-    border-radius: 5px;
-
-    @media ${device.laptop} {
-      padding: 20px 10px;
-    }
-
-    @media ${device.laptopL} {
-      padding: 20px 30px;
-    }
-
-    span {
-      font-weight: bold;
-      color: ${colors.white};
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      svg {
-        color: ${colors.white};
-        position: static;
-        transform: none;
-        margin-right: 5px;
-        @media ${device.laptop} {
-          width: 15px;
-          height: 15px;
-        }
-      }
-    }
-  }
-`;
 
 const HeaderMiddle = _ => {
   const [from, setFrom] = useState('BHZ');
