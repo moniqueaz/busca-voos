@@ -27,6 +27,7 @@ export const colors = {
   gray: '#a8aaa9',
   error: '#fe0000',
   infor: '#ddaf29',
+  grayLight: '#e9ebec',
 };
 
 export const font = {
@@ -43,5 +44,9 @@ export const font = {
     ms: '14px',
     lg: '18px',
     xl: '22px',
+  },
+  family: {
+    primary: "'Montserrat', sans-serif",
+    secondary: "'Baskervville', serif",
   },
 };

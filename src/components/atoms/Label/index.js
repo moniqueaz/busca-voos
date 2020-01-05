@@ -3,16 +3,17 @@ import styled from 'styled-components';
 import { device, colors, font } from '../../../style/variaveis';
 
 const LabelContainer = styled.div`
+  position: relative;
   label {
-    display: none;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: ${font.desktop.sm};
+    font-family: ${font.family.secondary};
+    font-style: italic;
+    margin-bottom: 5px;
     @media ${device.laptop} {
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      font-size: ${font.desktop.sm};
     }
   }
 `;

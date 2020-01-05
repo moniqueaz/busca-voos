@@ -20,7 +20,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: ${font.family.primary};
   color: ${colors.secondary}
 
 }

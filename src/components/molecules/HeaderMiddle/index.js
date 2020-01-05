@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import DatePicker from 'react-datepicker';
 
 import { device, colors, font } from '../../../style/variaveis';
@@ -13,28 +13,64 @@ import {
   FaUserFriends,
 } from 'react-icons/fa';
 
-const HeaderMiddleContainer = styled.div`
+const HeaderMiddleContainer = styled.div.attrs(props => ({}))`
   /* display: flex;
   justify-content: space-between;
   align-items: center; */
   padding: 20px;
   border-bottom: 2px solid ${colors.gray};
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  background-color: ${colors.white};
+  display: block;
+
+  ${props =>
+    props.status === 'disabled' &&
+    css`
+      & {
+        display: none;
+      }
+    `}
 
   @media ${device.laptop} {
-    display: none;
+    position: static;
+  }
+
+  .react-datepicker-wrapper {
+    width: 100%;
   }
 
   input {
     background-color: transparent;
-    border: 0;
+    border: 1px solid ${colors.gray};
+    width: 100%;
+    padding: 10px;
+    color: ${colors.primary};
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    &::placeholder {
+      color: ${colors.grayLight};
+    }
+  }
+
+  svg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    color: ${colors.primary};
   }
 `;
-const Filter = styled.div`
+const Filter = styled.button`
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10px;
+  width: 100%;
 
   @media ${device.laptop} {
     display: none;
@@ -98,12 +134,20 @@ const HeaderMiddle = _ => {
   const [departureDate, setDepartureDate] = useState(new Date());
   const [arraivalDate, setArraivalDate] = useState(new Date());
   const [adult, setAdult] = useState(1);
+  const [search, setSearch] = useState('disabled');
 
   function handleInputChange() {}
 
+  function toggleSearch() {
+    console.log('click');
+    setSearch(search === 'disabled' ? 'enabled' : 'disabled');
+    console.log(search);
+    console.log(search === 'disabled');
+  }
+
   return (
     <>
-      <Filter>
+      <Filter type="button" onClick={toggleSearch}>
         <Trip>
           <FaMapMarkerAlt />
           <span>
@@ -133,7 +177,7 @@ const HeaderMiddle = _ => {
           {adult}
         </Adults>
       </Filter>
-      <HeaderMiddleContainer>
+      <HeaderMiddleContainer status={search}>
         <Label text="Sair de" form="from">
           <input
             text="Sair de:"
