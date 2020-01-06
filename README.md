@@ -37,17 +37,13 @@ O que você precisa para instalar o projeto
 
 Faça clone do repositorio (https://github.com/moniqueaz/busca-voos) e execute os seguintes comandos
 
-Para instalar o projeto em sua maquina, faça:
+- Para instalar o projeto em sua maquina, faça:
 
-```
 Pelo terminal, vá até a raiz do projeto e executei o comando `yarn install` ou `npm i`.
-```
 
-Para executar o projeto localemnte, faça:
+- Para executar o projeto localemnte, faça:
 
-```
 Pelo terminal, vá até a raiz do projeto e executei o comando `yarn devNext` ou `npm run devNext`.
-```
 
 ### Technologies used for testing
 
@@ -66,7 +62,7 @@ Para rodar o teste, execute o comando `yarn test` ou `npm run teste`.
 
 ## Authors
 
-- **Monique Azevedo** - _Initial work_ - [MoniqueAz](https://github.com/moniqueaz)
+- **Monique Azevedo** - [MoniqueAz](https://github.com/moniqueaz)
 
 ## License
 
