@@ -4,10 +4,10 @@ Teste do processo seletivo para vaga de Font-End na MaxMilhas
 
 Repositorio (https://github.com/moniqueaz/busca-voos)
 
-Infelismente até o momento da entrega a requisição a api fornecida ainda estava restornando 401, executei o projeto com um mock obtido no propio site da MaxMilhas.
-Eu havia tentado uma solução com uma ferramenta chamada json-server (https://github.com/typicode/json-server), ela simularia a requisição e eu poderia dar andamento no teste praticamente da mesma forma, porem tive um problema de CORS com ele e optei por deixar a chamda lá, porem o mock retorna no callback de erro da requisição.
+Infelizmente até o momento da entrega a requisição a api fornecida ainda estava restornando 401, executei o projeto com um mock obtido no própio site da MaxMilhas.
+Eu havia tentado uma solução com uma ferramenta chamada json-server (https://github.com/typicode/json-server), ela simularia a requisição e eu poderia dar andamento no teste praticamente da mesma forma, porém tive um problema de CORS com ele e optei por deixar a chamda lá, porém o mock retorna no callback de erro da requisição.
 
-Esse README foi criado depois da data da entrega, porem achei importante envialo mesmo assim.
+Esse README foi criado depois da data da entrega, porém achei importante envialo mesmo assim.
 
 ## Getting Started
 
@@ -81,7 +81,7 @@ Ele ira exibir a seguinte mensagem com as rotas disponiveis
 ```
 
 As Other routes estavam configuradas para representar a rota fornecida por vocês e elas executariam a rota que estava com o json equivalente.
-Como eu obtive o problema de CORS eu não dei andamento, porem tomei a liberdade de finalizar os detalhes para vocês poderem vializar melhor.
+Como eu obtive o problema de CORS eu não dei andamento, porém tomei a liberdade de finalizar os detalhes para vocês poderem vializar melhor.
 
 ### Technologies used for testing
 
@@ -92,7 +92,7 @@ Como eu obtive o problema de CORS eu não dei andamento, porem tomei a liberdade
 
 ## Running the tests
 
-Existe o comando de teste, porem não chegue a executar nenhum
+Existe o comando de teste, porém não chegue a executar nenhum
 
 ```
 Para rodar o teste, execute o comando `yarn test` ou `npm run teste`.
