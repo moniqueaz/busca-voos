@@ -25,7 +25,7 @@ const GridHeader = styled.ul`
       border-left: 1px solid ${colors.grayDark};
     }
 
-    .haderGrid__desk {
+    &.haderGrid__desk {
       display: none;
       @media ${device.laptop} {
         display: block;
@@ -80,10 +80,10 @@ const GridHeaderComponet = _ => {
           <FaChevronDown />
         </button>
       </li>
-      <li classNamer="haderGrid__desk">
+      <li className="haderGrid__desk">
         <button>Detalhes</button>
       </li>
-      <li classNamer="haderGrid__desk">
+      <li className="haderGrid__desk">
         <button>
           Preço
           <FaChevronDown />
