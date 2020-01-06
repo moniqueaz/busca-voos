@@ -24,6 +24,13 @@ const GridHeader = styled.ul`
     & + li {
       border-left: 1px solid ${colors.grayDark};
     }
+
+    .haderGrid__desk {
+      display: none;
+      @media ${device.laptop} {
+        display: block;
+      }
+    }
   }
   button {
     color: ${colors.white};
@@ -70,6 +77,15 @@ const GridHeaderComponet = _ => {
       <li>
         <button>
           Chegada
+          <FaChevronDown />
+        </button>
+      </li>
+      <li classNamer="haderGrid__desk">
+        <button>Detalhes</button>
+      </li>
+      <li classNamer="haderGrid__desk">
+        <button>
+          Preço
           <FaChevronDown />
         </button>
       </li>

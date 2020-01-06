@@ -20,6 +20,7 @@ const ListPrice = styled.div`
     /* text-decoration: none; */
     font-weight: bold;
     &:after {
+      display: none;
       content: '';
       position: absolute;
       top: 50%;

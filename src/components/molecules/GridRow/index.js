@@ -18,10 +18,19 @@ const GridRow = styled.div`
   padding: 0 10px;
   margin-bottom: 5px;
   background-color: ${colors.white};
+
+  @media ${device.laptop} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 `;
 const Details = styled.div`
   /* padding: 15px 0; */
   height: 40px;
+  @media ${device.laptop} {
+    order: -1;
+  }
 `;
 const DetailsButton = styled.button`
   width: 100%;
@@ -52,8 +61,17 @@ const Prices = styled.div`
   padding: 10px 0;
   border-left: 0;
   border-right: 0;
+  @media ${device.laptop} {
+    border: 0;
+  }
 `;
 const PriceInfo = styled.div`
+  @media ${device.laptop} {
+    flex: 1 1 33.333%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .item {
     &__list-price {
     }

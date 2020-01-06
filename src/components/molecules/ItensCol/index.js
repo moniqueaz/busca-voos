@@ -23,6 +23,10 @@ const ItensColContainer = styled.div`
   padding: 0;
   margin: 0;
   padding: 10px 0;
+
+  @media ${device.laptop} {
+    flex: 1 1 66.666%;
+  }
 `;
 
 const ItensCol = ({ trip }) => {
