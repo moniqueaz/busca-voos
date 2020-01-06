@@ -38,12 +38,12 @@ const SelectDirection = _ => {
     setDirection(status);
   }
 
-  function handlerMountToFlights() {
+  function handlerMountToFlights(flights) {
     dispatch(MapDispachToActions.mountToFlights(flights));
   }
   useEffect(() => {
     console.log('direction: ', direction);
-    handlerMountToFlights({ ...flights, flights: { flag: direction } });
+    handlerMountToFlights({ ...flights, ['flag']: direction });
   }, [direction]);
 
   return (
