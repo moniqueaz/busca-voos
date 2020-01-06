@@ -39,11 +39,49 @@ Faça clone do repositorio (https://github.com/moniqueaz/busca-voos) e execute o
 
 - Para instalar o projeto em sua maquina, faça:
 
-Pelo terminal, vá até a raiz do projeto e executei o comando `yarn install` ou `npm i`.
+Pelo terminal, vá até a raiz do projeto e executem o comando `yarn install` ou `npm i`.
 
 - Para executar o projeto localemnte, faça:
 
-Pelo terminal, vá até a raiz do projeto e executei o comando `yarn devNext` ou `npm run devNext`.
+Pelo terminal, vá até a raiz do projeto e executem o comando `yarn devNext` ou `npm run devNext`.
+
+==============================
+
+Caso queiram observar o resultado json-server
+
+1 - Instale o json-server globalmente `npm install -g json-server`.
+
+2 - Pelo termina, na raiz do projeto vá até a pasta `services` e executem o comando `json-server --no-cors server.json --routes routes.json -p 3333 -w`
+
+Ele ira exibir a seguinte mensagem com as rotas disponiveis
+
+```
+    \{^_^}/ hi!
+
+  Loading server.json
+  Loading routes.json
+  Done
+
+  Resources
+  http://localhost:3333/searchTimes
+  http://localhost:3333/gol
+  http://localhost:3333/latam
+  http://localhost:3333/azul
+
+  Other routes
+  /search?time=:dateNow -> /searchTimes
+  /search/:id/flights?airline=:airline -> /:airline
+
+  Home
+  http://localhost:3333
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+```
+
+As Other routes estavam configuradas para representar a rota fornecida por vocês e elas executariam a rota que estava com o json equivalente.
+Como eu obtive o problema de CORS eu não dei andamento, porem tomei a liberdade de finalizar os detalhes para vocês poderem vializar melhor.
 
 ### Technologies used for testing
 
