@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import * as MapDispachToActions from '../../../store/actions/actionCreators';
 import DatePicker from 'react-datepicker';
@@ -28,29 +28,41 @@ import {
   FaMapMarkerAlt,
   FaUserFriends,
 } from 'react-icons/fa';
+import { mount } from 'enzyme';
 
 const HeaderMiddle = _ => {
-  const [from, setFrom] = useState('BHZ');
-  const [to, setTo] = useState('SAO');
-  const [departureDate, setDepartureDate] = useState(new Date());
-  const [arrivalDate, setArraivalDate] = useState(new Date());
-  const [adult, setAdult] = useState(1);
-  const [search, setSearch] = useState('disabled');
   const flights = useSelector(state => state.flights);
+  const from = 'BHZ';
+  const to = 'SAO';
+  const adults = 1;
+  const [search, setSearch] = useState('disabled');
+  const today = new Date();
+  const [outboundDate, setOutboundDate] = useState(
+    parseStringToDate('2020-05-01')
+  );
+  let [inboundDate, setInboundDate] = useState(parseStringToDate('2020-04-02'));
 
   const [postData, setPostData] = useState({
     tripType: 'RT',
-    from: 'BHZ', //origem
-    to: 'SAO', //destino
-    outboundDate: '2020-02-01', //data de partida
-    inboundDate: '2020-02-02', //data de volta
+    from, //origem
+    to, //destino
+    outboundDate: parseDateToString(outboundDate), //data de partida
+    inboundDate: parseDateToString(inboundDate), //data de volta
     cabin: 'EC', //classe econômica (EC) ou executiva (EX)
-    adults: 1, //adultos
+    adults, //adultos
     children: 0, //crianças
     infants: 0, //bebês
   });
 
   const dispatch = useDispatch();
+
+  useEffect(() => {}, []);
+  useEffect(() => {
+    async function fetchData() {
+      await updateFlights();
+    }
+    fetchData();
+  }, [postData]);
 
   function handlerMountToFlights(flights) {
     dispatch(MapDispachToActions.mountToFlights(flights));
@@ -59,6 +71,16 @@ const HeaderMiddle = _ => {
   async function handleSubmit(e) {
     e.preventDefault();
 
+    setPostData({
+      ...postData,
+      [postData]: {
+        outboundDate: parseDateToString(outboundDate), //data de partida
+        inboundDate: parseDateToString(inboundDate), //data de volta
+      },
+    });
+  }
+
+  async function updateFlights() {
     let { airlines, id } = await getAirlines();
     let airlinesEnabled = airlinesStatusEnables(airlines);
     let result = await getFlights(id, airlinesEnabled);
@@ -161,6 +183,53 @@ const HeaderMiddle = _ => {
     setSearch(search === 'disabled' ? 'enabled' : 'disabled');
   }
 
+  function parseDateToString(date) {
+    return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+  }
+
+  function parseStringToDate(date) {
+    let dt = date;
+
+    const dataSplit = dt.split('-');
+
+    const day = dataSplit[1];
+    const month = dataSplit[2];
+    const year = dataSplit[0];
+
+    return new Date(year, month - 1, day);
+  }
+
+  function validationDate(date, type) {
+    let tp = type === 'departureDate' ? 'Ida' : 'Volta';
+
+    if (new Date(date).getTime() < today.getTime()) {
+      alert(`Data de ${tp} menor que a data atual`);
+      return;
+    }
+    if (type === 'departureDate') {
+      if (date.getTime() > inboundDate.getTime()) {
+        alert(`Data de Ida maior que a data de Volta`);
+        return;
+      }
+    }
+    if (type === 'arrivalDate') {
+      if (outboundDate.getTime() > date.getTime()) {
+        alert(`Data de Ida maior que a data de Volta`);
+        return;
+      }
+    }
+
+    type === 'departureDate' && setOutboundDate(date);
+    type === 'arrivalDate' && setInboundDate(date);
+  }
+
+  function formatDateString(dateString) {
+    let dataSplit = dateString.split('-');
+    const day = dataSplit[2];
+    const month = dataSplit[1];
+    const year = dataSplit[0];
+    return `${day}/${month}/${year}`;
+  }
   return (
     <>
       <Filter type="button" onClick={toggleSearch}>
@@ -173,24 +242,16 @@ const HeaderMiddle = _ => {
         <Dates>
           <DateT>
             <FaCalendarAlt />
-            {`
-            ${departureDate.getDate()}
-            ${departureDate.getMonth()}
-            ${departureDate.getFullYear()}
-            `}
+            {formatDateString(parseDateToString(outboundDate))}
           </DateT>
           <DateT>
             <FaCalendarAlt />
-            {`
-            ${arrivalDate.getDate()}
-            ${arrivalDate.getMonth()}
-            ${arrivalDate.getFullYear()}
-            `}
+            {formatDateString(parseDateToString(inboundDate))}
           </DateT>
         </Dates>
         <Adults>
           <FaUserFriends />
-          {adult}
+          {adults}
         </Adults>
       </Filter>
       <HeaderMiddleContainer onSubmit={handleSubmit} status={search}>
@@ -221,16 +282,18 @@ const HeaderMiddle = _ => {
         <Label text="Ida" form="ida">
           <DatePicker
             id="ida"
-            selected={departureDate}
-            onChange={date => setDepartureDate(date)}
+            selected={outboundDate}
+            dateFormat="dd/MM/yyyy"
+            onChange={date => validationDate(date, 'departureDate')}
           />
           <FaCalendarAlt />
         </Label>
         <Label text="Volta" from="volta">
           <DatePicker
             id="volta"
-            selected={arrivalDate}
-            onChange={date => setArraivalDate(date)}
+            selected={inboundDate}
+            dateFormat="dd/MM/yyyy"
+            onChange={date => validationDate(date, 'arrivalDate')}
           />
           <FaCalendarAlt />
         </Label>
@@ -238,7 +301,7 @@ const HeaderMiddle = _ => {
           <input
             type="text"
             placeholder="Adultos"
-            value={adult}
+            value={adults}
             onChange={handleInputChange}
             id="adult"
             disabled

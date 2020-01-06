@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import * as MapDispachToActions from '../../../store/actions/actionCreators';
 import styled, { keyframes, css } from 'styled-components';
@@ -31,10 +31,21 @@ const SelectDirectionContainer = styled.div`
 
 const SelectDirection = _ => {
   const [direction, setDirection] = useState('outbound');
+  const { flights } = useSelector(state => state.flights);
+  const dispatch = useDispatch();
 
   function setSelectDirection(status) {
     setDirection(status);
   }
+
+  function handlerMountToFlights() {
+    dispatch(MapDispachToActions.mountToFlights(flights));
+  }
+  useEffect(() => {
+    console.log('direction: ', direction);
+    handlerMountToFlights({ ...flights, flights: { flag: direction } });
+  }, [direction]);
+
   return (
     <SelectDirectionContainer>
       <button

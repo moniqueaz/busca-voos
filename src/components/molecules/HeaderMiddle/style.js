@@ -30,8 +30,18 @@ export const HeaderMiddleContainer = styled.form.attrs(props => ({}))`
     padding: 0;
   }
 
-  .react-datepicker-wrapper {
-    width: 100%;
+  .react-datepicker{
+    &-wrapper {
+      width: 100%;
+    }
+    &__day{
+      &--selected{
+        background-color:${colors.primary};
+      }
+    }
+    &__current-month{
+      color:${colors.primary};
+    }
   }
 
   input {
@@ -63,10 +73,11 @@ export const HeaderMiddleContainer = styled.form.attrs(props => ({}))`
   svg {
     position: absolute;
     right: 10px;
-    top: 50%;
+    top: calc(50% + 4px);
     color: ${colors.primary};
     transform: translateY(-50%);
     @media ${device.laptop} {
+      top: 50%;
       width: 25px;
       height: 25px;
     }
